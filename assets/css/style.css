@@ -1,0 +1,105 @@
+/*-----------------------------------------------------------GENERAL------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    font-family:'Oswald', sans-serif;
+}
+
+
+/*-----------------------------------------------------------ACCUEIL------------------------------------------------------------*/
+
+.accueil {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(179, 147, 89);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/map.jpg");
+}
+
+
+#trianglekenya {
+    width: 30px;
+    position: absolute;
+    margin-top: 55vh;
+    margin-left: 55vw;
+}
+
+#triangleusa {
+    width: 30px;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 20vw;
+}
+
+#trianglerussie {
+    width: 30px;
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 60vw;
+}
+
+div:hover,div:focus{
+    background:rgba(0,0,0,.4);
+    box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+
+div #spanusa{
+    position:absolute;
+    color:rgb(0, 0, 0);
+    background:#ffffff;
+    padding:15px;
+    border-radius:2px;
+    margin-top:32vh;
+    margin-left:22vw;
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;     
+}
+
+
+div:hover #spanusa, div:focus #spanusa{
+    transform:scale(1) rotate(0); 
+    opacity:1;       
+}
+
+
+div #spankenya{
+    position:absolute;
+    color:rgb(0, 0, 0);
+    background:#ffffff;
+    padding:15px;
+    border-radius:2px;
+    margin-top:57vh;
+    margin-left:57vw;
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;     
+}
+
+
+div:hover #spankenya, div:focus #spankenya{
+    transform:scale(1) rotate(0); 
+    opacity:1;       
+}
+
+div #spanrussie{
+    position:absolute;
+    color:rgb(0, 0, 0);
+    background:#ffffff;
+    padding:15px;
+    border-radius:2px;
+    margin-top:20vh;
+    margin-left:62vw;
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;     
+}
+
+
+div:hover #spanrussie, div:focus #spanrussie{
+    transform:scale(1) rotate(0); 
+    opacity:1;       
+}
+
+
