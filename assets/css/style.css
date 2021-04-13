@@ -2,19 +2,74 @@
 
 * {
     margin: 0;
+    padding: 0;
     font-family:'Oswald', sans-serif;
 }
 
+/*----------------------------------------------------------Header---------------------------------------------------------*/
 
-/*-----------------------------------------------------------ACCUEIL------------------------------------------------------------*/
 
-.accueil {
+header{
+  position: fixed;
+  width: 100vw;
+  height: 6vh;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.795);
+
+}
+
+header ul{
+    margin-top: 1vh;
+    display: flex;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.navbar{
+    display: flex;
+}
+.navbar li{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.menu{
+    margin-left: 800px;
+}
+#title{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-top: 1vh;
+}
+
+header li{
+    margin:0 40px;
+    font: size 2px;}
+
+header i {
+    margin-right: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-----------------------------------------------------------PAGE 1------------------------------------------------------------*/
+
+.page1 {
     height: 100vh;
     width: 100vw;
     background-color: rgb(179, 147, 89);
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("../img/map.jpg");
+}
+
+
+.page1 ul {
+    list-style-type: none;
 }
 
 
@@ -39,10 +94,7 @@
     margin-left: 60vw;
 }
 
-div:hover,div:focus{
-    background:rgba(0,0,0,.4);
-    box-shadow:0 1px 0 rgba(255,255,255,.4);
-}
+
 
 div #spanusa{
     position:absolute;
@@ -57,6 +109,11 @@ div #spanusa{
     opacity:0;     
 }
 
+
+.page1 div:hover,div:focus{
+    background:rgba(0,0,0,.4);
+    box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
 
 div:hover #spanusa, div:focus #spanusa{
     transform:scale(1) rotate(0); 
@@ -102,4 +159,54 @@ div:hover #spanrussie, div:focus #spanrussie{
     opacity:1;       
 }
 
+
+/*-------------------------------------------------------PAGE 2-----------------------------------------------------------*/
+
+#titre
+{
+    text-align: center;
+    margin-bottom: 70px;
+    color: gray;
+}
+.photo1
+{
+
+    border: 1px solid rgb(201, 199, 199);
+    background: #ffff; 
+    margin: auto;
+    width: 30vw;
+}
+.page2
+{
+    background-color: rgb(255, 240, 217);
+    height: 100vh;
+    width: 100vw;
+}
+
+.photo
+{
+   padding : 23px;
+
+}
+.text p
+{
+    text-align: center;
+}
+.text
+{
+    border-top: 1px solid rgb(201, 199, 199);
+}
+.ContainerPhoto
+{
+    display:flex;
+    margin-bottom: 30px;
+}
+.price
+{
+    color: #715241;
+}
+.size
+{
+    font-size: larger;
+}
 
