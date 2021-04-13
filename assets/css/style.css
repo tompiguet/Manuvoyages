@@ -30,10 +30,10 @@ header ul{
 }
 .navbar li{
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .menu{
-    margin-left: 800px;
+    margin-left: 60vw;
 }
 #title{
     margin-left: 40px;
@@ -43,8 +43,9 @@ header ul{
 }
 
 header li{
-    margin:0 40px;
-    font: size 2px;}
+    margin-left:0 40px;
+    font: size 2px;
+}
 
 header i {
     margin-right: 15px;
@@ -65,6 +66,7 @@ header a {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("../img/map.jpg");
+    overflow: hidden;
 }
 
 
@@ -162,12 +164,23 @@ div:hover #spanrussie, div:focus #spanrussie{
 
 /*-------------------------------------------------------PAGE 2-----------------------------------------------------------*/
 
+
+.page2
+{
+    background-color: rgb(255, 240, 217);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
 #titre
 {
+    margin-top: 10vh;
     text-align: center;
     margin-bottom: 70px;
     color: gray;
 }
+
 .photo1
 {
 
@@ -176,12 +189,7 @@ div:hover #spanrussie, div:focus #spanrussie{
     margin: auto;
     width: 30vw;
 }
-.page2
-{
-    background-color: rgb(255, 240, 217);
-    height: 100vh;
-    width: 100vw;
-}
+
 
 .photo
 {
