@@ -6,6 +6,11 @@
     font-family:'Oswald', sans-serif;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+
 /*----------------------------------------------------------Header---------------------------------------------------------*/
 
 
@@ -38,7 +43,7 @@ header ul{
 #title{
     margin-left: 40px;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.5em;
     margin-top: 1vh;
 }
 
@@ -55,6 +60,9 @@ header a {
     text-decoration: none;
     color: black;
 }
+
+
+
 
 
 /*-----------------------------------------------------------PAGE 1------------------------------------------------------------*/
@@ -173,7 +181,7 @@ div:hover #spanrussie, div:focus #spanrussie{
     overflow: hidden;
 }
 
-#titre
+.titre                            /*modifie les titres des pages 2 et 3*/
 {
     margin-top: 10vh;
     text-align: center;
@@ -212,9 +220,98 @@ div:hover #spanrussie, div:focus #spanrussie{
 .price
 {
     color: #715241;
+    font-weight: bold;
 }
 .size
 {
     font-size: larger;
 }
 
+
+/*-------------------------------------------------------PAGE 3-----------------------------------------------------------*/
+
+
+.page3 {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+.avis1, .avis2 {
+    display: flex;
+    height: 25vh;
+    width: 70vw;
+    margin: 0 auto;                               /* centre les div horizontallement */
+    background-color: rgb(209, 201, 190);
+}
+
+.avis2 {
+    margin-top: 50px;
+}
+
+.avis_avatar {
+    padding: 30px;
+}
+
+.avis_left {
+    padding: 30px;
+}
+
+.avis_right {
+    padding: 30px;
+}
+
+.stars {
+    width: 80px;
+}
+
+
+/*----------------------------------------------------------FOOTER----------------------------------------------------------------*/
+
+footer {
+    height: 25vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color:#645555;
+}
+
+.div_footer {
+    display: flex;
+}
+
+.mail {
+    width: 33vw;
+    padding: 40px;
+    color: white;
+}
+
+.tel {
+    width: 33vw;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.liens {
+    width: 34vw;
+    padding: 40px;
+    color: white;
+    text-align: right;
+
+}
+
+footer strong {
+    font-size: 2em;
+}
+
+footer span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer i {
+    font-size: 3em;
+    padding: 5px;
+}
